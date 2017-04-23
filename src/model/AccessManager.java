@@ -1,5 +1,5 @@
 package model;
- 
+
 import java.sql.Connection;
 import java.sql.SQLException;
 import java.util.ArrayList;
@@ -8,7 +8,7 @@ import com.dto.RCNMaster;
 
 import dao.Access;
 import dao.Database;
- 
+
 public class AccessManager
 {
 public ArrayList<RCNMaster> getRCNMaster() throws Exception

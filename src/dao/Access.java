@@ -1,5 +1,5 @@
 package dao;
- 
+
 import java.sql.Connection;
 import java.sql.PreparedStatement;
 import java.sql.ResultSet;
@@ -7,7 +7,7 @@ import java.sql.SQLException;
 import java.util.ArrayList;
 
 import com.dto.RCNMaster;
- 
+
 public class Access
 {
 public ArrayList<RCNMaster> getRCNMaster(Connection con) throws SQLException
@@ -20,7 +20,7 @@ try
 while(rs.next())
 {
 RCNMaster rcnMasterObj = new RCNMaster();
-rcnMasterObj.setRcn(rs.getString("rcn"));
+rcnMasterObj.setRcn(rs.getString("rcn"));    //changing default names 
 rcnMasterObj.setHolderName(rs.getString("holdername"));
 rcnMasterObj.setFatherName(rs.getString("fathername"));
 rcnMasterObj.setmotherName(rs.getString("mothername"));
@@ -39,6 +39,6 @@ rcnList.add(rcnMasterObj);
 e.printStackTrace();
 }
 return rcnList;
- 
+
 }
 }
