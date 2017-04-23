@@ -1,7 +1,6 @@
 # FCS-Rest-Project
 
-A Restful webservice developed with **Java(JAX-RS)** using **Jersey** framework based on **REST** architechture to enable data flow between apps of different platforms.
-On the server side Jersey framework provides a servlet implementation which scans predefined classes to identify RESTful resources.
+A Restful webservice developed with **Java(JAX-RS)** using **Jersey** framework based on **REST** architechture to enable data flow between apps of different platforms. On the server side Jersey framework provides a servlet implementation which scans predefined classes to identify RESTful resources.
 
 ## Details
 
